@@ -17,15 +17,5 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"name": "Name",
-				"type": "String"
-			},
-			{
-				"name": "Money",
-				"type": "String"
-			}
-		]
 	}
 }
