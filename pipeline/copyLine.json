@@ -1,7 +1,0 @@
-{
-	"name": "copyLine",
-	"properties": {
-		"description": "copy to same container in the storage account",
-		"annotations": []
-	}
-}
