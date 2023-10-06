@@ -11,14 +11,6 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
 		},
-		"GitHub1_credential": {
-			"type": "secureString",
-			"metadata": "Secure string for 'credential' of 'GitHub1'"
-		},
-		"GitHub1_properties_typeProperties_username": {
-			"type": "string",
-			"defaultValue": "makia2332"
-		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -48,12 +40,6 @@
 					},
 					"AzureBlobStorage1_connectionString": {
 						"value": "[parameters('AzureBlobStorage1_connectionString')]"
-					},
-					"GitHub1_credential": {
-						"value": "[parameters('GitHub1_credential')]"
-					},
-					"GitHub1_properties_typeProperties_username": {
-						"value": "[parameters('GitHub1_properties_typeProperties_username')]"
 					}
 				}
 			},
