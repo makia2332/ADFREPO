@@ -1,0 +1,19 @@
+{
+	"name": "GitHub1",
+	"properties": {
+		"annotations": [],
+		"type": "GitHub",
+		"typeProperties": {
+			"username": "makia2332",
+			"credential": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault2",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "secretos",
+				"secretVersion": "980a652f2c0c42d98ed9c13539af23c0"
+			}
+		}
+	}
+}
